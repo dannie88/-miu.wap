@@ -2,6 +2,10 @@
 a{
     text-decoration: none;
 }
+/*underline on hover*/
+a:hover{
+    text-decoration: underline;
+}
 
 /* unvisited link */
 a:link {
@@ -23,4 +27,9 @@ h1,h2,h3{
     background-color: white;
     width: 40%;
     
+}
+
+p::first-letter{
+    font-size: 1.5em;
+    font-weight: bold;
 }

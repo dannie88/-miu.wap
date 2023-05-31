@@ -1,3 +1,18 @@
+/*remove underline from a link*/
+a{
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: red; 
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+  }
+
 body{
     background-color:black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -6,5 +21,6 @@ body{
 h1,h2,h3{
     color: red;
     background-color: white;
+    width: 40%;
     
 }

@@ -1,7 +1,7 @@
 body{
     color: green;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-background-color: black;
+background-color: white;
 }
 img{
     width: 80px;
@@ -44,10 +44,14 @@ h3{
 
 .header{
     width: 60%;
+    display: flex;
+    justify-content:flex-end;
     background-color: green;
     color: white;
     margin-left: 300px;
     margin-right: 300px;  
+    
+    
    
    
 }
@@ -61,7 +65,7 @@ table{
 }
 
 button{
-    
+    border: 0px;
     background-color: green;
     margin-right: 60%;
     color: white;
@@ -73,6 +77,11 @@ td{
 }
 th{
     border: 1px solid green;
+}
+
+button:hover{
+    text-decoration: underline;
+   
 }
 
 

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan HTML Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body class="frame">
+    
+        <div class="header">
+            <h3>Workshop Registration</h3>
+            <select class="more-action" name="actions" id="">
+                <option selected> More Actions</option>
+                <option selected> Book a seat</option>
+            </select>
+        </div>
+
+        <div class="middle">
+            <div class="container">
+                <div class="column">
+                    <p class="underline">Register now while seats are available!</p>
+                    <form action="google.com" method="get">
+                        <table>
+                            <tr>
+                                <td> First Name <span class="dot">*</span></td>
+                                <td> <input type="text" name="firstname"> </td>
+                            </tr>
+                            <tr>
+                                <td> Last Name <span class="dot">*</span> </td>
+                                <td><input type="text" name="lastname"></td>
+                            </tr>
+                            <tr>
+                                <td> Company/Institution <span class="dot">*</span></td>
+                                <td><input type="text" name="company"></td>
+                            </tr>
+                            <tr>
+                                <td> Address</td>
+                                <td><textarea name="address" id="" cols="20" rows="9"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td> City</td>
+                                <td><input type="text" name="city"></td>
+                            </tr>
+                            <tr>
+                                <td> State/Province/Region</td>
+                                <td><select name="Province" id="">
+                                        <option value="">-Select-</option>
+                                        <option value="">North</option>
+                                        <option value="">South</option>
+                                        <option value="">East</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td> Country</td>
+                                <td><select name="Country" id="">
+                                        <option value="">-Select-</option>
+                                        <option value="">Uganda</option>
+                                        <option value="">Ethiopia</option>
+                                        <option value="">Kenya</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td> Email <span class="dot">*</span></td>
+                                <td><input type="text" name="email"></td>
+                            </tr>
+                            <tr>
+                                <td> Phone Number <span class="dot">*</span></td>
+                                <td><input type="text" name="q"></td>
+                            </tr>
+                        </table>
+
+
+                </div>
+
+
+                <div class="column">
+                    <p class="underline">Lunch</p>
+                    <table>
+                        <tr>
+                            <td> Meal Preference</td>
+                            <td><select name="Country" id="">
+                                    <option value="">Vegeterian</option>
+                                    <option value="">Vegan</option>
+                                    <option value="">Meat</option>
+                                    <option value="">Chicken</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="underline"> Payment Details </td>
+
+                        </tr>
+                        <tr>
+                            <td> Payment Mode</td>
+                            <td>
+                                <li><input type="checkbox" name="cash">Cash</li>
+                                <li><input type="checkbox" name="cheque">Cheque</li>
+                                <li><input type="checkbox" name="demandDraft">Demand Draft</li>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> DD/Cheque No.</td>
+                            <td><input type="text" name="cheque" id=""></td>
+                        </tr>
+                        <tr>
+                            <td> Drawn On(Bank Name)</td>
+                            <td><input type="text" name="Bank Name"></td>
+                        </tr>
+
+                        <tr>
+                            <td> Payable at</td>
+                            <td><input type="text" name="Payable"></td>
+                        </tr>
+
+                    </table>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="footer"> <input type="submit" value="submit" class="button">
+            <input type="reset" value="reset" class="button">
+        </div>
+        </form>
+    
+</body>
+
+</html>
